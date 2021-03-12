@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lvxingjg.iml" filepath="$PROJECT_DIR$/Lvxingjg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-cache/common-cache.iml" filepath="$PROJECT_DIR$/common-cache/common-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-data/common-data.iml" filepath="$PROJECT_DIR$/common-data/common-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-entity/common-entity.iml" filepath="$PROJECT_DIR$/common-entity/common-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-oauth/common-oauth.iml" filepath="$PROJECT_DIR$/common-oauth/common-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-security/common-security.iml" filepath="$PROJECT_DIR$/common-security/common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-swagger/common-swagger.iml" filepath="$PROJECT_DIR$/common-swagger/common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+    </modules>
+  </component>
+</project>

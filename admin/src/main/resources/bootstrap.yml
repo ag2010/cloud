@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: admin
+  cloud:
+    nacos:
+      config:
+        #server-addr: 127.0.0.1:8849
+        server-addr: 192.168.0.111:8848
+        file-extension: yml
+        #namespace: 62a23f8d-4b8a-4148-98b9-41c456c6723b
+        username: nacos
+        password: nacos
+        extension-configs[0]:
+          dataId: discovery-commom.yml
+          group:  common
+          refresh: true
+
+        extension-configs[1]:
+          dataId: application-dev.yml
+          group: common
+          refresh: true
+
+        extension-configs[2]:
+          dataId: security-admin.yml
+          group: shop
+          refresh: true
+
+        extension-configs[3]:
+          dataId: datasource.yml
+          group: common
+          refresh: true
+        extension-configs[4]:
+          dataId: swagger.yml
+          group: common
+          refresh: true
+        group: shop
+
+  profiles:
+    active: dev
+
+swagger:
+  enabled: false
+

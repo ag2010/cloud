@@ -1,0 +1,9 @@
+  o         o               o                                     o
+   ${AnsiColor.BRIGHT_YELLOW}
+////////////////////////////////////////////////////////////////////
+      lvxing
+////////////////////////////////////////////////////////////////////
+
+Spring  Boot  Version: ${spring-boot.version}
+Spring  Cloud Version: Hoxton.SR4
+Alibaba Cloud Version: 2.2.1 RELEASE
